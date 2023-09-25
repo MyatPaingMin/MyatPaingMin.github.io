@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>Document</title>
+    <style>
+        /* Add custom styles here */
+        .skill-bar-container {
+            margin-bottom: 20px;
+        }
+
+        .skill-bar {
+            height: 20px;
+            background-color: #f5f5f5;
+            position: relative;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 100px;
+        }
+
+        .skill-progress {
+            height: 40%;
+            background-color: #f03d3d;
+            color: #fff;
+            text-align: center;
+            line-height: 20px;
+            animation: progressAnimation 2s ease-in-out;
+        }
+
+        @keyframes progressAnimation {
+            0% { width: 0; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative top-1 w-100">
+      
+          
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end" style="width: 1200px;">
+              <li class="nav-item px-3">
+                <a class="nav-link active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link"  href="./projects.html">Projects</a>
+              </li>
+            </ul>
+           
+    </nav>
+    <div style="height: 1300px;">
+        <div class="row m-sm-5 m-3">
+            <div class="col-md-6 col-sm-12 m-0 p-0">
+                <span class="fs-5 text-secondary opacity-75">Hello. I am</span>
+                <h2 class="text-danger fw-bold fs-1">Web Developer</h2>
+                <p class="fw-semibold fs-4">Myat Paing Min</p>
+                <!-- <p class="ms-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, excepturi dolor ipsam tenetur hic eaque odit omnis dolorem fugiat nemo labore quos error, est doloribus numquam fugit nobis quibusdam exercitationem eveniet itaque, rem iure animi facere architecto. Repellendus consectetur dolore velit aspernatur amet a vitae, ea iure, illum quos eos.</p> -->
+                <!-- <p class="ms-4 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, excepturi dolor ipsam tenetur hic eaque odit omnis dolorem fugiat nemo labore quos error, est doloribus numquam fugit nobis quibusdam exercitationem eveniet itaque, rem iure animi facere architecto. Repellendus consectetur dolore velit aspernatur amet a vitae, ea iure, illum quos eos.</p> -->
+                <a href="cv_form/MYAT_PAING_MIN_LARAVEL_eng.pdf" class="btn btn-danger" download>CV form Download</a>
+                <a href="cv_form/MYAT_PAING_MIN_LARAVEL_jp.pdf" class="btn btn-danger" download>申込書ダウンロード</a>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center align-items-center" style="height: 400px;">
+                <img src="images/myPhoto.jpg" alt="Profile pic" class="profile rounded-circle object-fit-cover" style="height:300px; width: 300px;">
+            </div>
+        </div>
+
+
+        <div class="container mb-2 d-flex justify-content-center align-items-center w-100" style=" height: 50px;">
+            <div class="fs-3 fw-bold">Services</div>
+        </div>
+        <div class="row m-2 d-flex justify-content-around text-center" style="width: 98%;">
+            <div class="col-lg-3  col-md-7 col-sm-8  border border-2  shadow m-3 p-3">
+                <div class=""><img src="./images/frontend.png" style="width: 50px;" alt=""></div>
+                <h3 class="fs-5 text-dark fw-bold">Front end Development</h3>
+                <p>Front end development including <b class="text-danger">HTML , CSS</b> website layout and designing, using design frameworks like <b style="color: #6610f2;">Bootstrap</b>. I am also proficient with <b class="text-warning">Javascript</b> to make interactive pages design and responses. Javascript frameworks, <b class="text-success">Vue</b> is also used a lot in my projects to interact with backend APIs and frontend web page flexibility and convenience.</p>
+            </div>
+            <div class="col-lg-3  col-md-7 col-sm-8 border border-2 shadow m-3 p-3">
+                <div class=""><img src="./images/backend.png" style="width: 50px;" alt=""></div>
+                <h3 class="fs-5 text-dark fw-bold">Backend Development</h3>
+                <p>My primary backend programming language is <b style="color: #6f42c1;">PHP</b>, and my framework of choice is <b class="text-danger">Laravel</b>. With Laravel, I am adept at crafting versatile web solutions, ranging from server-side-rendered websites using Blade.php templates to robust API-driven backends with well-defined API routes for various operations. My expertise extends to mastering the MVC (Model-View-Controller) architectural pattern, proficiently creating routes and controllers, and ensuring the highest level of security for web applications. I am diligent in securing routes and API endpoints, placing a strong emphasis on prioritizing security in all my development projects.</p>
+            </div>
+            <div class="col-lg-3  col-md-7 col-sm-8 border border-2 shadow m-3 p-3">
+                <div class=""><img src="./images/database.png" style="width: 50px;" alt=""></div>
+                <h3 class="fs-5 text-dark fw-bold">Database Management</h3>
+                <p>I possess a strong proficiency in database management, with a deep understanding of SQL in intricate and complex formats. My expertise extends to extracting extensive data from interconnected databases through intricate cross-linking relationships and skillful table joinings. Additionally, I excel in the art of database normalization, ensuring that tables are brought to their highest level of normalization, resulting in efficient and well-structured data storage. My passion for optimizing data management processes makes me a valuable asset in designing and maintaining robust database systems</p>
+            </div>
+        </div>
+
+
+        <div class="container mb-2 d-flex justify-content-center align-items-center w-100" style=" height: 50px;">
+            <div class="fs-3 fw-bold">Skills</div>
+        </div>
+        <!-- <div class="d-flex justify-content-center w-100">
+        <div class="d-flex justify-content-between "> -->
+
+            <div class="ms-5 row">
+                <table class="col-md-6">
+                    <tr class="skill-bar-container ">
+                        <td class="skill-name">            
+                            <i class="fs-1 devicon-html5-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;">90%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-css3-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">80%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-javascript-plain colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">80%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-bootstrap-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;">75%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-jquery-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 75%;">75%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-php-plain colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;">70%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-laravel-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">80%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-mysql-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;">70%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-vuejs-plain-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">80%</div>
+                        </td>
+                    </tr>
+                    <tr class="skill-bar-container">
+                        <td class="skill-name">
+                            <i class="fs-1 devicon-react-original-wordmark colored"></i>
+                        </td>
+                        <td class="skill-bar">
+                            <div class="skill-progress" style="width: 25%;">25%</div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- <i class="fs-1 devicon-react-original-wordmark colored"></i> -->
+
+            <!-- <i class="fs-1 devicon-angularjs-plain colored"></i> -->
+         
+    <footer class="bg-danger" style="height: 200px;">
+        <div class="" style="margin-left: 200px; margin-top: 100px;">
+            <div><img src="./images/facebook.png" style="width:20px;" class=" mb-4"><a href="https://www.facebook.com/myatpaing.minn/">Myat Paing Minn</a></div>
+            <div><img src="./images/github.png" style="width:20px;" class=" mb-4"><a href="https://github.com/MyatPaingMin">MyatPaingMin</a></div>
+            <div><img src="./images/email.png" style="width:20px;" class=" mb-4 "> <span class="text-white">myatpaingminn@gmail.com</span></div>
+            <div><img src="./images/phone.png" style="width:20px;" class=" mb-4 "><span class="text-white">09 440900266</span></div>
+            <div></div>
+        </div>
+    </footer>
+</body>
+
+</html>
